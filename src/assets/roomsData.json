@@ -1,0 +1,21 @@
+{
+    "adultFields": [
+        1,
+        2
+    ],
+    "childrenFields": [
+        0,
+        1,
+        2
+    ],
+    "roomsList": [
+        { "label": "Room 1", "index":0, "selected": true, "selectedAdultValue": "", "selectedChildValue": ""
+        },
+        { "label": "Room 2", "index": 1, "selected": false, "selectedAdultValue": "", "selectedChildValue": ""
+        },
+        { "label": "Room 3", "index": 2, "selected": false, "selectedAdultValue": "", "selectedChildValue": ""
+        },
+        { "label": "Room 4", "index": 3, "selected": false, "selectedAdultValue": "", "selectedChildValue": ""
+        }
+    ]
+}

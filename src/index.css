@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.hotel-rooms-section {
+   width: 48%;
+    margin: auto;
+}
+
+.rooms-container {
+  display: flex;
+    justify-content: space-around;   
+    font-size: 12px;
+}
+.rooms-container select {
+  width: 33px;
+}
+.roomItem{
+      border: 2px solid #dedede;
+    border-radius: 5px;
+}
+.check-box-container{
+      background-color: #dedede;
+    padding: 0 10px;
+    display: flex;
+}
+.check-box-container span {
+  font-weight: 500;
+}
+.drop-down-container {
+      padding: 5px 0px;
+    display: flex;
+}
+.drop-down-container div {
+      display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+.disable-item {
+	pointer-events: none;
+    background-color: #dedede;
+    cursor: not-allowed;
+}
+.hotel-rooms-section button{
+      margin: 20px;
+    background-color: #dedede;
+}
+.hotel-rooms-section h1 {
+  text-align: center;
+}
